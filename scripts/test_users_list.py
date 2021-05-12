@@ -17,4 +17,4 @@ def test_users():
 
     assert status_code == 200, "HTTP Status Code should be 200"
     assert total_users[0] == 12, "Total users count is not right"
-    assert total_page[0] == 5, "Total pages count is not right"
+    assert total_page[0] == 2, "Total pages count is not right"
