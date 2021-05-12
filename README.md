@@ -1,13 +1,18 @@
 ### Dependencies
 pythin 3.8 or above
+
 pip install virtualenv
+
 ### To run the script
 virtualenv .venv 
+
 .venv\Scripts\activate.bat
+
 pip install -r requirements.txt
 
 ### Execute test
 cd scripts/
+
 py.test
 
 ### API Smaples
